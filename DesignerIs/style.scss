@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: max-content;
+    background-color: #31333D;
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    p{
+        color: grey;
+    }
+}
+
+main{
+    background-image: url(Rectangle\ 2.png);
+    width: 100%;
+    height: 93vh;
+    background-size: cover;
+    background-position: right;
+    padding: 10px 150px;
+    padding-top: 170px;
+    p{
+        color: white;
+        margin-bottom:25px;
+        font-weight: 300;
+        font-size: 25px;
+    }
+    h1{
+        color: #FFFFFF;
+        margin-bottom: 10px;
+        font-size: 58px;
+        button{
+            width: 86px;
+            height: 22px;
+            background-color: #EF3833;
+            color: #FFFFFF;
+            border-radius: 10px;
+            border: none;
+            
+        }
+    }
+    button{
+        width: 206px;
+        height: 44px;
+        background-color: #45CCFF;
+        color: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+    }
+}
+
+.box_for_Ismoil{
+    width: max-content;
+    height: max-content;
+    padding-left:400px; 
+    p{
+        text-align: end;
+        margin-bottom: 5px;
+    }
+}
+
+.example{
+    width: 100%;
+    height: max-content;
+    padding: 15px 100px;
+    display: flex;
+    gap:35px;
+    align-items: center;
+}
+
+.Organing{
+    display: flex;
+    margin-top: 20px;
+    gap: 25px;
+    button{
+        width: 156px;
+        height: 44px;
+        background-color: #45CCFF;
+        color: #FFFFFF;
+        border-radius: 10px;
+        border: none;
+        font-size: 20px;
+    }
+    p{
+        color: gray;
+        font-size: 12px;
+    }
+}
+
+.aboute{
+    display: flex;
+    gap: 40px;
+    padding: 15px 150px;
+
+}
+
+.numbers{
+    background-image: url(Rectangle\ 1219.png);
+    h1{
+        color: #FFFFFF;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        .number{
+            h1{
+                font-size: 80px;
+                color: #FFFFFF;
+                margin-top: 20px;
+
+            }
+            h3{
+                color: #FFFFFF;
+                margin-top: 20px;
+            }
+            p{
+                color: #FFFFFF;
+                font-weight: 300;
+                margin-top: 20px;
+            }
+        }
+    }
+    padding: 100px 150px;
+}
+
+.Kimlar{
+    display: flex;
+    justify-content: space-between;
+    .circle{
+        width: 26px;
+        height: 26px;
+        background-color: #45CCFF;
+        border-radius: 100%;
+    }
+    .circle_p{
+        display: flex;
+        gap: 30px;
+    }
+    margin-top: 40px;
+}
+
+.KimlarUchun{
+    padding: 20px 100px;
+    width: 100%;
+    height: 349px;
+    h1{
+        text-align: center;
+        margin-top: 100px;
+    }
+}
+
+
+
+.hard{
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+    padding-top: 90px;
+    .text_hard{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        h1{
+            text-align: center;
+        }
+        .icons_hard{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            .icon_hard{
+                width: 36px;
+                height: 36px;
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .blue{
+                background-color: #090451;
+                h1{
+                    color: #45CCFF;
+                }
+            }
+
+            .orange{
+                background-color: #541d10;
+                h1{
+                    color: #EF3833;
+                }
+            }
+        }
+    }
+    .hard_center{
+        display: flex;
+        position: relative;
+        img{
+            position: absolute;
+            top: 170px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hardik{
+            display: flex;
+            flex-direction:column ;
+            gap: 91px;
+            .paralilipiped{
+                display: flex;
+                gap: 18px;
+            }
+            .bluuuue{
+                color: #242935;
+            }
+
+            .orangeeeee{
+                color: #EF3833;
+            }
+        }
+
+        .first{
+            position: absolute;
+            top: 168px;
+            left: 400px;
+            transform: translate(-50%, -50%);
+        }
+        .second{
+            position: absolute;
+            top: 168px;
+            left: 1150px;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .hard_bottom{
+        position: absolute;
+        top: 574px;
+        transform: translate(-50%, -50%);
+        padding: 0px 310px;
+        .hardikGorizantal{
+            display: flex;
+        }
+    }
+}
+
